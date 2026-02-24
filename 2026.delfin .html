@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sticky sections app</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#section1">section 1</a></li>
+            <li><a href="#section2">section 2</a></li>
+            <li><a href="#section3">section 3</a></li>
+            <li><a href="#section4">section 4</a></li>
+            <li><a href="#section5">section 5</a></li>
+
+        </ul>
+    </nav>
+
+    <section id="section1" class="sticky-section">
+        <h1>Section 1</h1>
+        <div class="card">
+            <img src="../5.png" alt="campoalegre">
+            <button onclick="modal.showModal()">ver mas</button>
+        </div>
+        <dialog id="modal"><h3>campoalegre </h3>
+          <p>
+           Stranger Things es una serie de televisión web dramática de suspense, ciencia ficción 
+           y terror estadounidense, coproducida y distribuida por Netflix.[4]​ Creado por los hermanos
+            Matt y Ross Duffer, y producida ejecutivamente por Shawn Levy,[5]​ se estrenó en la 
+            plataforma el 15 de julio de 2016; la segunda y tercera temporada se estrenaron el 27
+            de octubre de 2017 [6]​[7]​ y el 4 de julio de 2019, respectivamente, su cuarta temporada
+            se estrenó en 2 partes el 27 de mayo y el 1 de julio de 2022 y su quinta y última 
+            temporada se estrena el 26 de noviembre de 2025, el 25 de diciembre de 2025 y el 
+            31 de diciembre de 2025.[8]​[9]​ En febrero de 2022 la serie fue renovada para una quinta 
+            y última temporada, que, después de los retrasos por la huelga SAG-AFTRA, comenzó su 
+            producción el 8 de enero de 2024.[10]​[11]​
+          </p>
+          <button onclick="modal.close()">cerrar</button>
+       </dialog>
+       <p> this is the content of section 1.</p>
+    </section>
+    <section id="section2" class="sticky-section">
+        <h1>section 2</h1>
+        <p>this is content of section 2.</p>
+    </section>
+     <section id="section3" class="sticky-section">
+        <h1>section 3</h1>
+        <p>this is content of section 3.</p>
+    </section>
+     <section id="section4" class="sticky-section">
+        <h1>section 4</h1>
+        <p>this is content of section 4.</p>
+    </section>
+     <section id="section5" class="sticky-section">
+        <h1>section 5</h1>
+        <p>this is content of section 5.</p>
+    </section>
+
+    <script src="js/mains.js"></script>
+</body>
+</html>
